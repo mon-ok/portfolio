@@ -6,6 +6,7 @@ import { projects } from './data/projects';
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react'; 
 import TechStackIcon from './components/TechStackIcon';
 import { techStack } from './data/techStack';
+import profileImage from './assets/profile.jpg';
 
 const App: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -51,7 +52,7 @@ const App: React.FC = () => {
             </div>
             <div className="md:w-1/2 flex flex-col items-center md:items-end gap-4 mt-8 md:mt-0">
               <img 
-                src="src/assets/profile.jpg" 
+                src={profileImage} 
                 alt="Profile" 
                 className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg" 
               />

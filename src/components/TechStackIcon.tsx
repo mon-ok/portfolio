@@ -42,7 +42,7 @@ const TechStackIcon: React.FC<TechStackIconProps> = ({ name, image }) => {
       transition-opacity transition-transform duration-1000 ease-in-out
     `}>
       <img
-        src={`src/assets/tech/${image}`}
+        src={image}
         alt={`${name} icon`}
         className="h-12 w-12 object-contain mb-2"
       />

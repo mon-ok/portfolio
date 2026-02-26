@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import type { Project } from '../../data/projects';
 
-const ProjectCard: React.FC<Project> = ({ id, title, description, tech, gridSpan, imageUrl }) => {
+const ProjectCard: React.FC<Project> = ({ id, title, description, tech, gridSpan, imageUrl, link, github }) => {
   const [isVisible, setIsVisible] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -62,8 +62,16 @@ const ProjectCard: React.FC<Project> = ({ id, title, description, tech, gridSpan
             ))}
           </div>
           <div className="flex gap-4">
-            <Github size={18} className="cursor-pointer group-hover:dark:text-navy-50 group-hover:text-gray-900" />
-            <ExternalLink size={18} className="cursor-pointer group-hover:dark:text-navy-50 group-hover:text-gray-900" />
+            {github && (
+              <a href={github} target="_blank" rel="noopener noreferrer">
+                <Github size={18} className="cursor-pointer group-hover:dark:text-navy-50 group-hover:text-gray-900" />
+              </a>
+            )}
+            {link && (
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <ExternalLink size={18} className="cursor-pointer group-hover:dark:text-navy-50 group-hover:text-gray-900" />
+              </a>
+            )}
           </div>
         </div>
       </div>
