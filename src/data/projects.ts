@@ -18,7 +18,7 @@ export const projects: Project[] = [
     link: 'https://www.kirbymeme.com',
     github: 'https://github.com/mon-ok/3d-star-site',
     gridSpan: 'col-span-12 lg:col-span-8 lg:row-span-2', 
-    imageUrl: 'src/assets/projects/kirby.png',
+    imageUrl: '/assets/projects/kirby.png',
   },
   {
     id: '5',
@@ -28,7 +28,7 @@ export const projects: Project[] = [
     link: 'https://www.yeememe.site',
     github: 'https://github.com/mon-ok/yee',
     gridSpan: 'col-span-12 lg:col-span-4 lg:col-start-9 lg:row-start-1 lg:row-span-3',
-    imageUrl: 'src/assets/projects/yeememe.png',
+    imageUrl: '/assets/projects/yeememe.png',
   },
   {
     id: '2',
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     link: 'https://staticky.fun/',
     github: 'https://github.com/mon-ok/rodrigo_cc',
     gridSpan: 'col-span-12 md:col-span-6 lg:col-span-4 lg:row-span-1',
-    imageUrl: 'src/assets/projects/staticky.png',
+    imageUrl: '/assets/projects/staticky.png',
   },
   {
     id: '3',
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     link: 'https://pagsusi-ten.vercel.app/',
     github: 'https://github.com/Dongkor/Pagsusi',
     gridSpan: 'col-span-12 md:col-span-6 lg:col-span-4 lg:row-span-1',
-    imageUrl: 'src/assets/projects/pagsusi.png',
+    imageUrl: '/assets/projects/pagsusi.png',
   },
   {
     id: '6',
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     link: 'https://gibhub.netlify.app/',
     github: 'https://github.com/mon-ok/GIB-Submission-WebApp',
     gridSpan: 'col-span-12 md:col-span-6 lg:col-span-4 lg:row-span-2',
-    imageUrl: 'src/assets/projects/gibhub.png',
+    imageUrl: '/assets/projects/gibhub.png',
   },
   {
     id: '7',
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     link: '#',
     github: '#',
     gridSpan: 'col-span-12 md:col-span-6 lg:col-span-4 lg:row-span-1',
-    imageUrl: 'src/assets/projects/powerbi.png',
+    imageUrl: '/assets/projects/powerbi.png',
   },
   {
     id: '8',
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     link: '#',
     github: '#',
     gridSpan: 'col-span-12 lg:col-span-4 lg:row-span-1',
-    imageUrl: 'src/assets/projects/powerbi1.png',
+    imageUrl: '/assets/projects/powerbi1.png',
   },
   {
     id: '4',
@@ -88,7 +88,7 @@ export const projects: Project[] = [
     link: '#',
     github: '#',
     gridSpan: 'col-span-12 md:col-span-6 lg:col-span-4 lg:row-span-1',
-    imageUrl: 'src/assets/projects/powerapp.png',
+    imageUrl: '/assets/projects/powerapp.png',
   },
   {
     id: '9',
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     link: '#',
     github: '#',
     gridSpan: 'col-span-12 md:col-span-6 lg:col-span-4 lg:row-span-1',
-    imageUrl: 'src/assets/projects/powerapp1.png',
+    imageUrl: '/assets/projects/powerapp1.png',
   },
   {
     id: '10',
@@ -108,6 +108,6 @@ export const projects: Project[] = [
     link: 'https://tle-tambayan-live.vercel.app/',
     github: 'https://github.com/Dongkor/tle-tambayan',
     gridSpan: 'col-span-12 lg:col-span-12 lg:row-span-1',
-    imageUrl: 'src/assets/projects/tletambayan.png',
+    imageUrl: '/assets/projects/tletambayan.png',
   },
 ];
